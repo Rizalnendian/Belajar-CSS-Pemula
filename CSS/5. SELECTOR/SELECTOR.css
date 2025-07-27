@@ -1,0 +1,49 @@
+body {
+    font-family: arial;
+}
+
+h1, h2{
+    color: green;
+}
+
+/* selector yang ingin distyling sekaligus meskipun beda elemen pada html dapat dilakukan dengan menggunakan (,)
+seperti
+
+h1, h2 {
+        color: green;
+}
+*/
+
+h2{
+   font-style: oblique; /* selector juga tetap dapat dipisah stylingnya meskipun sebelumnya sudah styling dua/lebih selector sekaligus*/
+}
+
+/* cara memilih selector yang spesifik dengan menggunakan pemisah spasi, spasi bisa dibilang "didalam"*/
+ul li a{ /* contoh: ingin styling elemen a yang ada di dalam li dan li ada di dalam ol */
+    color: red;
+}
+
+ol li a{
+    color: blueviolet;
+}
+
+/*Cara memilih selector yang spesifik tetapi bukan elemen yang berada di dalam elemen lain dengan menggunakan id atau class pada htmlnya */
+#p1 { /*tag id harus menggunakan # pada awal selectornya*/ 
+    color: rgb(59, 0, 94);
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.p2 { /*tag id harus menggunakan (.) pada awal selectornya*/
+    font-style: italic;
+    color: rgb(16, 0, 158);
+    
+}
+
+.bold{ /* sebuah selector class dapat mewakili dua atau lebih elemen html*/
+    font-weight: bold;
+}
+
+p.bold{ /* bisa juga untuk elemen yang memiliki class sama tetapi spesifik pada satu elemen saja*/
+    text-align: justify;
+}

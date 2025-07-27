@@ -1,0 +1,21 @@
+h1{font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;}
+
+dt{font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: left;
+color: blue;
+font-weight: bolder;}
+
+dd{font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: cadetblue;
+    font-weight: bold;
+}
+
+p{font-family: Arial, Helvetica, sans-serif;
+color: brown;
+font-size: medium;
+font-weight: bold;}
+
+h6{font-variant: normal;}
+h5{font-variant: small-caps;}
