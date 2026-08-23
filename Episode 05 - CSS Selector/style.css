@@ -1,0 +1,67 @@
+/* Selector Universal */
+* {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Type Selectors */
+h1 {
+    color: brown;
+}
+
+h1, p{
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    color: red;
+}
+
+h2 {
+    color: yellowgreen;
+}
+
+/* Class Selectors */
+/* Class selector untuk mengubah khusus tag tertentu dengan class yang sama */
+li.makanan { 
+    color: blue;
+    font-size: 20px;
+}
+
+/* Class selector untuk mengubah element dengan class yang sama */
+.minuman {
+    color: darkcyan;
+    font-size: 20px;
+}
+
+/* id selector */
+#bestseller{
+    font-weight: bold;
+    color: coral;
+}
+
+/* child selector */
+
+p>b{
+    font-size: larger;
+}
+/* artinya selector yang dipilih merupakan tag b yang ada di dalam tag p */
+
+/* decendent selector */
+p b{
+    color: darkgoldenrod;
+}
+/* apapun yang mengandung tag b sebagai anak atau cucu dari sebuah tag maka akan terseleksi */
+
+/* adjacent sibling selector */
+ul+p{
+
+    font-size: small;
+}
+/* akan mengubah semua p yang berada setelah h2 */
+
+/* general sibling selector */
+/* memilih seluruh komponen setelah suatu komponen */
+h2~p{
+    font-weight: bold;
+}
