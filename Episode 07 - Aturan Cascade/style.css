@@ -1,0 +1,44 @@
+*{
+    font-family: Arial;
+}
+
+/* Last rule atau urutan terakhir */
+
+i{
+    color: green;
+}
+
+i{
+    color: red;
+    /* jika ada property yang sama di satu selector yang sama maka dengan value yang berbeda, maka style akan mengikuti yang terakhir atau yang paling bawah*/
+}
+
+/* Spesific rule*/
+b{
+    color: darkblue;
+    /* spesifik level 1 atau paling bawah prioritasnya */
+}
+
+p b{
+    color: darkorchid !important;
+    /* menggunakan !important otomatis akan memilih style disini karena lebih spesifik */
+    /* level 3 */
+}
+
+p b{
+    color: darkcyan;
+    /* perubahan mengikuti selector yang lebih spesifik */
+/* level 2 */
+}
+
+
+/* studi kasus */
+p{
+    font-size: 100%;
+
+}
+
+p#pendahuluan{
+    font-size: 150%;
+    /* perubahan akan mengambil yang selectornya lebih spesifik */
+}

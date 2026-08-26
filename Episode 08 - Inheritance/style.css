@@ -1,0 +1,13 @@
+body{
+    font-family: arial;
+    color: darkslategray;
+    padding: 10px;
+}
+
+
+.artikel1{
+    border: 1px solid #665544;
+    padding: inherit;
+     /*inherit itu untuk mengambil property dari induk elemen, misalnya disini div class artikel1 memiliki induk berupa elemen body  */
+    background-color: #efefef;
+}
