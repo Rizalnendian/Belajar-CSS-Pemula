@@ -1,0 +1,25 @@
+body{
+    background-color: #efefef;
+    color: #efefef;
+}
+
+#artikel{
+   padding: 20px;
+   background-color: #a0a0a0; 
+}
+
+h1{
+    background-color: rgb(255, 96, 47);
+    padding: 10px;
+}
+
+h2{
+    background-color: rgba(255, 96, 47, 0.5);
+    /* nilai alpha merupakan opacity warna, berlaku juga di hsla */
+    padding: 1%;
+}
+
+p{
+    background-color: hsla(17, 100%, 49%, 0.158);
+    padding: inherit;
+}

@@ -1,0 +1,29 @@
+body{
+    font-family: arial;
+    padding: 10px;
+    background-color: #efefef;
+}
+/* foreground color */
+/* colorname */
+h1{
+    color: white;
+}
+/* hex */
+h2{
+    color: #ffcc00;
+}
+/* rgb */
+p{
+    color: rgb(0, 0, 0);
+    background-color: #ffcc00;
+    padding: inherit;
+}
+/* hsl */
+i{
+color: hsl(0, 100%, 44%);
+}
+
+div{
+    background-color: darkslategrey;
+    padding: inherit;
+}
