@@ -1,0 +1,49 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dekor{
+    width: fit-content;
+    height: fit-content;
+    border: 5px solid;
+    padding: 20px;
+}
+
+.margin-1{
+    /* semua sisi */
+   margin: 5px; 
+}
+
+.margin-2{
+/* atas-bawah   kiri-kanan */
+   margin: 10px 20px; 
+}
+
+.margin-3{
+/* atas-bawah   kiri-kanan */
+   margin: 10px auto; 
+}
+
+.margin-4{
+/*        atas-kanan-bawah-kiri */
+   margin: 10px 20px 40px 100px; 
+}
+
+.margin-5{
+/*        atas-kanan&bawah-kiri */
+   margin: 5px auto 40px; 
+}
+
+.margin-6{
+/*        atas-kanan-bawah-kiri */
+   margin: 10px 20px 40px auto; 
+}
+
+
+/* geser nilai satu sisi
+margin-right:...px;
+margin-left:...px;
+margin-top:...px;
+margin-bottom:...px;
+*/
+
