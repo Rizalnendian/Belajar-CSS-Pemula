@@ -1,0 +1,55 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+span{
+    background-color: rgba(255, 200, 0, 0.5);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid;
+}
+
+/* Inline */
+span.inline{
+    display: inline;
+    /* inline membuat elemen menjadi sebaris */
+    /* ukuran box tidak mengikuti aturan widht dan height */
+}
+
+/* Block */
+span.block{
+    display: block;
+    /* block membuat setiap elemen berada di baris baru */
+    /* ukuran box mengikuti aturan widht dan height */
+}
+
+/* Inline-block */
+span.inlineblock{
+    display: inline-block;
+    /* Inline-block membuat setiap elemen berada di baris yang sama */
+    /* ukuran box mengikuti aturan widht dan height */
+}
+ 
+
+/* flex */
+/* Membut elemen menjadi fleksibel */
+.flex-container{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.flex-item{
+    background-color: azure;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
