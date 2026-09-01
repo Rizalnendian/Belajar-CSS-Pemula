@@ -1,0 +1,161 @@
+*{
+    font-family: Arial;
+}
+
+/* Header */
+.header{
+    display: flex;
+    background-color: beige;
+    padding: 10px;
+}
+
+.header-logo{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-logo img{
+    height: 70px;
+}
+
+.header-title{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10px;
+}
+
+.header-title a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* Navi bar */
+.nav{
+    margin-top: 0px;
+    padding: 10px;
+    background-color: #000000;
+}
+
+.nav-item{
+    display: inline-block;
+    margin-left: 20px;
+    height: 20px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item a:hover{
+    color: cadetblue;
+}
+
+
+/* konten */
+.konten{
+    width: 80%;
+    margin: auto;
+}
+
+.konten h1{
+    color: darkolivegreen;
+    font-size: 35px;
+}
+
+.konten h2{
+    font-size: 22px;
+    color: darkgreen;
+}
+
+
+/* Tabel */
+table{
+    border-spacing: 4px;
+}
+
+.tabel-header{
+    background-color: beige;
+}
+
+.tabel-header th{
+    padding: 10px;
+    text-align: center;
+}
+
+.tabel-konten{
+    background-color: azure;
+}
+
+.tabel-genap{
+    background-color: aliceblue;
+}
+
+.tabel-konten td{
+    padding: 10px;
+}
+
+td>img{
+    width: 100px;
+}
+
+.tabel-konten:hover{
+    background-color: bisque;
+}
+
+.tabel-genap:hover{
+    background-color: bisque;
+}
+
+td{
+    text-align: center;
+}
+
+/* Form */
+
+.form-group{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-group label{
+    display: block;
+    font-size: 20px;
+    color: rgb(135,135,135);
+}
+
+.form-group input{
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.form-group textarea{
+    display: block;
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 200px;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: darkgreen;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: green;
+}
+
+.btn:active{
+    background-color: darkolivegreen;
+}
