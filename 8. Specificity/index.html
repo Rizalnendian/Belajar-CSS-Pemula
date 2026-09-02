@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../8. Specificity/style.css">
+    <title>Specificity</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quis unde incidunt quasi suscipit et beatae. Tempore enim, aperiam adipisci sequi modi architecto, porro dolorum nulla eos ut nostrum saepe.</p>
+
+    <h1>Specificity</h1>
+    <h1 id="head">Specificity</h1>
+
+    <h2>Specificity</h2>
+    <h2 class="head">Specificity</h2>
+
+
+    <h3 id="head">Specificity</h3>
+    <h3 class="head">Specificity</h3>
+
+
+    <p>Jadi,</p>
+    <p> element memiliki bobot satuan: 1 untuk satu element</p>
+    <p> class memiliki bobot puluhan: 10 untuk satu class</p>
+    <p> id memiliki bobot ratusan: 100 untuk satu id</p>
+    <p>inline memiliki bobot tertinggi: 1000 untuk inline styles</p>
+
+
+
+    <ul id="sarapan">
+        <li class="favorit">Bubur</li>
+        <li>Doclang</li>
+        <li>Nasi uduk</li>
+        <li>Lainnya</li>
+    </ul>
+
+
+    <a href="https://specificity.keegan.st/">Web untuk menghitung specificity</a>
+</body>
+</html>
