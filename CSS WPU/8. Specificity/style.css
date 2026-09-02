@@ -1,0 +1,54 @@
+/* last rule */
+/* Menyimpan style yang penempatannya paling akhir jika bobot spesifiknya sama */
+p{
+    color: blue;
+}
+
+p{
+    color: red;
+}
+
+/* id */
+/* Bobot spesifik untuk id adalah 100 */
+h1#head{
+    color: yellow;
+}
+
+/* dibawah ini hanya berlaku bagi elemen yang sama namun tidak memiliki id */
+h1{
+    color: green;
+}
+
+
+/* class */
+/* Bobot spesifik untuk class adalah 10 */
+h2.head{
+    color: blue;
+}
+
+/* dibawah ini hanya berlaku bagi elemen yang sama namun tidak memiliki class */
+h2{
+    color: red;
+}
+
+/* perbandingan id dan class */
+/* id memiliki bobot yang lebih tinggi  */
+h3#head{
+    color: yellow;
+}
+
+h3.head{
+    color: blue;
+}
+
+
+/* contoh */
+/* Bobot spesifik untuk id adalah 102 */
+ul#sarapan li{
+    color: green;
+}
+
+/* Bobot spesifik untuk class adalah 10 */
+li.favorit{
+    color: red;
+}
