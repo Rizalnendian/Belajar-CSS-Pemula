@@ -1,0 +1,26 @@
+p{
+    background-color: aqua;
+    padding: 10px;
+}
+
+.posisi-sticky {
+    background-color: coral;
+    position: sticky;
+    top: 100px;
+    /* bisa geser right, bottom, top dan left */
+
+}
+
+div.header-sticky{
+    background-color: coral;
+    position: sticky;
+    width: 100%;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    height: 100px
+}
+
+/* .container{
+    margin-top: 115px;
+} */
