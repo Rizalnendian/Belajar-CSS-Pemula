@@ -1,0 +1,11 @@
+.linear {
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(to right, salmon, violet);
+}
+
+.radial {
+    width: 200px;
+    height: 100px;
+    background: radial-gradient(circle, red, blue);
+}
