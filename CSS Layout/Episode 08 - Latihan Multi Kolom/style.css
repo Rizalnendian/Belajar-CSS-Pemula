@@ -1,0 +1,54 @@
+*{
+    font-family: Tahoma;
+    box-sizing: border-box;
+}
+
+
+/* header */
+.header{
+    background-color: darksalmon;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    padding: 10px;
+    z-index: 2;
+}
+
+
+.header h1{
+    margin-left: 50px;
+}
+
+
+/* container */
+.container{
+    position: relative;
+    top: 100px;
+    z-index: 1;
+    max-width: 700px;
+    margin: 0px auto 0px;
+}
+
+.container h2{
+    font-size: 18px;
+}
+
+.kolom-konten{
+    width: 500px;
+    float: left;
+}
+
+.kolom-menu{
+    background-color: aquamarine;
+    float: left;
+    width: 190px;
+    padding: 10px;
+    margin-left: 10px;
+
+}
+
+.kolom-menu ul{
+    list-style: none;
+}
