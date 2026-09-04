@@ -1,0 +1,26 @@
+p{
+    background-color: aqua;
+    padding: 10px;
+}
+
+.posisi-fixed {
+    background-color: coral;
+    position: fixed;
+    /* relative berfungsi untuk menggeser elemen relatif terhadap posisi aslinya */
+    left: 20px;
+    /* bisa geser right, bottom, top dan left */
+}
+
+div.header-fixed{
+    background-color: coral;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    height: 100px
+}
+
+.container{
+    margin-top: 115px;
+}

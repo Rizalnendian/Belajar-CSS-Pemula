@@ -1,0 +1,13 @@
+p{
+    background-color: aqua;
+    padding: 10px;
+}
+
+.posisi-absolute{
+    background-color: coral;
+    position: absolute;
+    /* fixed berfungsi untuk menggeser elemen secara tetap terhadap jendela browser */
+    left: 20px;
+    bottom: 0px;
+    /* bisa geser right, bottom, top dan left */
+}

@@ -1,0 +1,12 @@
+p{
+    background-color: aqua;
+    padding: 10px;
+}
+
+.posisi-relative {
+    background-color: coral;
+    position: relative;
+    /* relative berfungsi untuk menggeser elemen relatif terhadap posisi aslinya */
+    left: 20px;
+    /* bisa geser right, bottom, top dan left */
+}
